@@ -8,6 +8,7 @@ def setup_screen():
     screen.setup(width=600, height=400)
     return screen
 
+# Function to draw start and finish lines
 def draw_track_line(x_pos):
     line = Turtle()
     line.hideturtle()
