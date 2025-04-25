@@ -19,6 +19,7 @@ def draw_track_line(x_pos):
     line.pendown()
     line.forward(300)
 
+# Function to create turtle racers with different colors and positions
 def create_turtles(colors):
     turtles = []
     y_start = -100
