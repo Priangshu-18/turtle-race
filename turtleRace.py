@@ -1,6 +1,7 @@
 from turtle import Turtle, Screen
 import random
 
+#Function to set-up the screen
 def setup_screen():
     screen = Screen()
     screen.title("Turtle Race Game")
