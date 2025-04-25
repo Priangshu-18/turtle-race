@@ -40,6 +40,7 @@ def start_race(turtles, user_bet):
             if turtle.xcor() >= 270:
                 return turtle.pencolor()
 
+# Main function to run the game
 def main():
     colors = ["red", "yellow", "blue", "green", "purple", "orange", "black"]
     screen = setup_screen()
